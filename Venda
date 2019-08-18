@@ -1,0 +1,12 @@
+#include <iostream>
+using namespace std;
+int main(){
+	
+	float preCompra,preVenda;
+	cout<<"preco de compra do produto : r$  ";
+	cin>>preCompra;
+	
+	preVenda = preCompra + (preCompra * 20/100);
+	
+	cout<<"preco sugerido para a venda R$ :"<< preVenda;
+}
