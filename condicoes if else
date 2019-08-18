@@ -1,0 +1,36 @@
+#include <iostream>
+
+using namespace std;
+int main(void) {
+	
+	int idade;
+	char sexo;
+	
+	cout<<"digite sua idade \n _";
+	cin>>idade;
+
+	
+	cout<<"digite (m) para masculino, e (f) para feminino \n_";
+	cin>> sexo;
+	    
+	    if (idade >=18){
+	    	
+	    	cout<<"voce pode dirigir  :-)\n";
+	    	
+	    	if (sexo=='m'){
+	    		cout<<"voce precisa ir no servico militar ;-)\n";
+			}
+		}
+		else{
+			if (idade >16){
+				cout<<"voce ja pode votar";
+				
+			}
+			else {
+				cout <<"voce nao pode votar e nem dirigir";
+			}
+		}
+		
+		
+	
+}
