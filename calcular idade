@@ -1,0 +1,13 @@
+#include <iostream>
+using namespace std;
+int main(){
+	int anoAtual, anoNasc,idade;
+	cout<<"O ano atual e :  ";
+	cin>>anoAtual;
+	cout<<"ano do nascimento  :";
+	cin>>anoNasc;
+	
+	idade=anoAtual-anoNasc;
+	
+	cout<<"voce tem ou fara :"<<idade <<"anos.";
+}
