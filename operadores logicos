@@ -1,0 +1,20 @@
+#include <iostream>
+
+using namespace std;
+int main(int argc, char** argv) {
+	int sangue;
+	
+	cout<< "qual a sua idade. \n";
+	cin >> sangue;
+	
+	if (sangue>18||<67){
+		cout<< "voce pode doar sangue. \n";
+	}
+	
+	else {
+		cout<<"voce nao pode doar sangue.";
+	}
+	
+	
+	return 0;
+}
