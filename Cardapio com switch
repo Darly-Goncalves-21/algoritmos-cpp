@@ -1,0 +1,21 @@
+#include <iostream>
+using namespace std;
+int main(){
+	int cod,qtde,valor,item;
+	
+	cout<<"*** Cardapio *** \n";
+	cout<<" 100 - Hamburguer - R$5,50 \n";
+	cout<<" 101 - Cachorro quente - R$4,50 \n";
+	cout<<" 102 - Milkshake -R$7,00 \n";
+	cout<<" 103 - Pizza - R$8,00 \n";
+	cout<<" Informe o codigo do seu pedido .: ";
+	cin>>cod;
+	cout<<" Informe a quantidade desejada:.:  ";
+	cin>>qtde;
+	 switch (cod){
+	 	case 100: valor=qtde*5.50;
+	 	cout<<"o valor do seu pedido e  "<<valor <<"reais.";
+	 	break;
+	 	
+	 }
+}
