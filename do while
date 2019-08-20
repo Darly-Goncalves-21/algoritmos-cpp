@@ -1,0 +1,22 @@
+#include <iostream>
+using namespace std;
+int main(){
+
+  int num,contador,resultado;
+  
+  cout<<"*********** voce deseja ver a tabuada de qual numero *************  \n  ";
+  cin>>num;
+  
+  contador=0;
+  
+  do {
+  	
+  	resultado = num* contador;
+  	cout<< num  <<" X " << contador <<" =  "<< resultado<<"\n";
+  	contador++;
+  }
+  while (contador<=10);
+  
+
+
+}
