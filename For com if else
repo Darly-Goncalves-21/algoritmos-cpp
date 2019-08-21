@@ -1,0 +1,22 @@
+#include <iostream>
+using namespace std;
+int main(){
+	
+	int num,contador,idade;
+	
+	for (contador=1;contador<=5;contador++) {
+		cout<<"Qual a  "<< contador <<"a idade?";
+		cin>>idade;
+		
+		if (idade>=18)
+		{
+			cout<<" Voce ja pode tirar a carteira de motorista \n";
+			
+		}
+		else
+		{
+			cout<<"ainda nao pode tirar a carteira de motorista \n";
+		}
+	}
+	
+}
